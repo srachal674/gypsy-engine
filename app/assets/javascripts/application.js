@@ -13,7 +13,7 @@
 //= require rails-ujs
 //= require activestorage
 //= require jquery
-//= require jquery-js
+//= require jquery-ujs
 //= require turbolinks
 //= require popper
 //= require tether
