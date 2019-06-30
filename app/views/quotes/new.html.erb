@@ -2,4 +2,7 @@
 <%= simple_form_for @quote do |f| %>
   <%= f.input :saying %>
   <%= f.input :author %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+  new_quote GET /quotes/new(.:format) quotes#new
 <% end %>
