@@ -4,8 +4,9 @@
 
 @font-face {
     font-family: 'open_sansbold';
-    src: font_url('opensans-bold-webfont.woff2') format('woff2'),
-         font_url('opensans-bold-webfont.woff') format('woff');
+    src: font_url('opensans-bold-webfont.woff') format('woff'),
+         font_url('opensans-bold-webfont.woff2') format('woff2');
+         
     font-weight: normal;
     font-style: normal;
 
