@@ -17,9 +17,9 @@
           <br />
           You know
           <br />
-          You need
+          you need
           </br>
-          To code
+          to code
       </div>
     </div>
 
@@ -36,7 +36,23 @@
     
     <br class="clear" />
 
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
 
+    <div class="footer">
+        <div class"container">
+          <div class="row">
+            <div class="col-6">
+              <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+            </div>
+            <div class="col-6 footer-blurb">
+              Proudly hacked in the "The Valley of the Sun" by <a href="">Shannon Rachal</a><br />
+              Want to build your own Splurty Web App - <a href="https://online.bootcampspot.com">Learn to code here</a>
+            </div>  
+          </div>
+        </div>
+      </div>
+        
   </body>
 </html>
